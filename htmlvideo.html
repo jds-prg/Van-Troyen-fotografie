@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportage</title>
+    <style>
+        body {
+            background-color: #e7e0e0;
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: left;
+            padding: 20px;
+        }
+
+        video {
+            display: block;
+            width: 100%;       /* vult de volledige breedte */
+            height: auto;      /* behoudt verhoudingen */
+            border-radius: 10px;
+            max-width: 100%;   /* voorkomt dat het groter wordt dan het scherm */
+            box-sizing: border-box;
+        }
+
+        /* Optioneel: video centreren met een max breedte */
+        .video-container {
+            max-width: 900px;  /* max breedte in pixels */
+            margin: 0 auto;    /* centreren */
+            padding: 10px;
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="title">Reportage</h1>
+
+    <div class="video-container">
+        <video controls autoplay src="interludium.mp4"></video>
+    </div>
+    
+</body>
+
+<footer>
+    <p >&copy; 
+        2025 Daniël Van Troyen 
+    </p>
+</footer>
+</html>
