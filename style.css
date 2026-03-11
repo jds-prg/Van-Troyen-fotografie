@@ -28,8 +28,6 @@ nav .logo {
 }
 
 nav ul {
-  position: fixed;
-  right: 30px;
   list-style: none;
   display: flex;
   gap: 30px;
